@@ -1,3 +1,5 @@
-var doc = document.getElementById("doc");
-doc.contentEditable = true;
-doc.focus();
+(function () {
+  var doc = document.getElementById("doc");
+  doc.contentEditable = true;
+  doc.focus();
+})()
