@@ -1,0 +1,42 @@
+body {
+  font-family: "Open Sans";
+}
+
+.nb-navbar {
+  position: fixed;
+  z-index: 1;
+}
+
+.nb-blue {
+  background-color: #6cced9;
+}
+
+.nb-darkblue {
+  background-color: #0367A6;
+}
+
+.nb-orange {
+  background-color: #ff8b32;
+}
+
+.nb-hover-orange {
+  border-bottom: 6px solid #ff8b32 !important;
+}
+
+.nb-hover-orange:hover {
+  border-bottom: 6px solid #1B91BF !important;
+}
+
+.about-card {
+  height: 100vh;
+  font-size: 1.7vh;
+  padding-top: 6vh;
+}
+
+/*
+
+ff8b32
+ffa332
+1B91BF
+
+*/
