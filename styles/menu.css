@@ -81,9 +81,32 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: border-bottom 0.25s;
+  transition: color 0.25s;
+  font-size: 1.15em;
 }
 
 li a:hover {
-  border-bottom: 4px solid rgb(255, 111, 46) !important;
+  color: rgb(104, 199, 255);
+}
+
+.footer {
+  margin-top: 10px;
+  background-color: #ff6f2e;
+  height: 110px;
+  width: 100%;
+}
+
+.footer div {
+  color: white;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer div a {
+  text-decoration: none;
+  color: #68c7ff;
+  font-size: 4em;
 }

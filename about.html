@@ -2,56 +2,69 @@
 <html>
 <head>
   <meta encoding="utf-8" />
-  <title>Nerdboard | About Us</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Nerdboard | Board of Nerds</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="menu.css" />
-  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="/styles/menu.css" />
+  <link rel="stylesheet" href="/styles/about.css" />
 </head>
 <body>
   <div class="header" style="text-align:center">
-    <h6>LOGO HERE</h6>
+    <img src="res/logo.png" alt="Go Home!" class="logo">
+    <img src="res/logo-side.png" alt="Go Home!" class="logo-side">
+    <ul>
+      <li><a href="/"><b>Home</b></a></li>
+      <li><a href="/random.html"><b>Random</b></a></li>
+      <li class="narrow"><p></p></li>
+      <li><a href="/about.html"><b>About</b></a></li>
+      <li><a href="/contact.html"><b>Contact</b></a></li>
+    </ul>
   </div>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about.html">About</a></li>
-    <li><a href="/contact.html">Contact</a></li>
-  </ul>
-  <div>
-    <div class="card" style="transform: translate(-50%, 0%);">
-      <img src="res/jin.jpg" />
-      <div>
-        <h2>Jinrun Han</h2>
-        <p>
-          Jingjing is a Chinese geisha.
-        </p>
+<div class="mainbody">
+    <div class="row">
+      <div class="column">
+        <div class="card" style="transform: translate(0%, 0%);">
+        <img src="/res/jin.jpg" />
+        <div>
+          <h2>Jinrun Han</h2>
+          <p>
+            Jingjing is a Chinese geisha.
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="card" style="transform: translate(-50%, 102%);">
-      <img src="res/david.jpg" />
-      <div>
-        <h2>David Oloko</h2>
-        <p>
-          David is from the country of Africa.
-        </p>
       </div>
-    </div>
-    <div class="card" style="transform: translate(-50%, 204%);">
-      <img src="res/elizabeth.jpg" />
-      <div>
-        <h2>Elizabeth Sarell</h2>
-        <p>
-          Elizabeth comes from somewhere that doesn't exist.
-        </p>
+      <div class="column">
+        <div class="card" style="transform: translate(0%, 102%);">
+          <img src="/res/david.jpg" />
+          <div>
+            <h2>David Oloko</h2>
+            <p>
+              David is from the country of Africa.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card" style="transform: translate(-50%, 306%)">
-      <img src="res/george.jpg" />
-      <div>
-        <h2>George Hill</h2>
-        <p>
-          George is racist.
-        </p>
+      <div class="column">
+        <div class="card" style="transform: translate(0%, 204%);">
+        <img src="/res/elizabeth.jpg" />
+        <div>
+          <h2>Elizabeth Sarell</h2>
+          <p>
+            Elizabeth comes from somewhere that doesn't exist.
+          </p>
+        </div>
+      </div>
+      </div>
+      <div class="column">
+        <div class="card" style="transform: translate(0%, 306%)">
+        <img src="/res/george.jpg" />
+        <div>
+          <h2>George Hill</h2>
+          <p>
+            George is racist.
+          </p>
+        </div>
+      </div>
       </div>
     </div>
   </div>
