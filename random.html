@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nerdboard | Random</title>
+    <script type="text/javascript">
+      var links = new Array();
+      links[0] = "/posts/testpost.html";
+
+      function openLink() {
+        // Chooses a random link:
+        var i = Math.floor(Math.random() * links.length);
+        // Directs the browser to the chosen target:
+        parent.location = links[i];
+        return false;
+      }
+      openLink();
+    </script>
+  </head>
+  <body>
+    <p>
+      If you're seeing this page, it might be because you don't have <b>javascript</b> enabled. Enable javascript and <a href="/random.html">reload</a> or go back <a href="/">home</a>.
+    </p>
+  </body>
+</html>
