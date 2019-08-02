@@ -21,11 +21,13 @@
   width: 100%;
   padding: 10px;
   margin-top: 8px;
+  border-radius: 20px;
 }
 
 .mainbody img {
   width: 45%;
   float: left;
+  border-radius: 10px;
 }
 
 .card div {

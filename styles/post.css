@@ -29,3 +29,27 @@ img {
   transform: translate(-50%);
   max-width: 100%;
 }
+
+ul.share-buttons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.share-buttons li {
+  display: inline;
+  float: left;
+  font-size: 2em;
+  width: 10%;
+}
+
+ul.share-buttons li a {
+  color: #000;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+ul.share-buttons li a:hover {
+  color: #68c7ff;
+}

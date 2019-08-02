@@ -26,6 +26,7 @@ input[type=text], textarea {
   background: #f1f1f1;
   font-family: Raleway, Helvetica, sans-serif;
   transition: background-color 0.25s;
+  border-radius: 20px;
 }
 
 textarea {
